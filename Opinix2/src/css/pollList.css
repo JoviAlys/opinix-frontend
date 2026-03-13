@@ -1,0 +1,28 @@
+.poll-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    row-gap: 0.25em;
+    
+}
+
+
+.poll-list button {
+    min-width: 15em;
+    border-radius: 15px;
+    border:0;
+    margin: 0.1em;
+
+    padding:0.5em;
+}
+
+.poll-list button:hover {
+    font-weight: bold;
+}
+
+.see-more {
+    min-width: 1em;
+    background-color: gray;
+    color:aliceblue;
+}

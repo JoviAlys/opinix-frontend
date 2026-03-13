@@ -1,0 +1,58 @@
+.titlebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(12, 81, 184);
+    top:0;
+}
+
+.titlebar h1{
+    align-self: center;
+}
+
+.ribbonbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(54, 114, 205);
+}
+
+.ribbonbar > *{
+    display: flex;
+    flex-direction: row;
+}
+
+.ribbonbar button{
+    border: 1px solid rgb(54, 114, 205);
+    background-color: rgb(54, 114, 205);
+    min-width: 10em;
+}
+
+.ribbonbar button:hover{
+    background-color: rgb(32, 97, 203);
+    border: 1px solid aliceblue;
+    color: white;
+}
+.poll-settings {
+    display: flex;
+    margin-left: 2em;
+}
+
+.user-settings {
+    margin-right: 2em;
+}
+
+/* ------------------------------Body-------------------------------- */
+
+.body-sections {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-items: center;
+}
+
+.body-sections > * {
+     border: 1px solid grey;
+     border-radius: 20px;
+     margin: 0.75em;
+     padding: 1em;
+}
+
