@@ -10,10 +10,16 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
 
-    background-color: red;
 }
 
 .dates p{
+    border-radius: 15px;
+    border:0;
+
+    padding:0.5em;
+    justify-self: center;
+    align-self: center;
+
     font-size:1em ;
 }
 

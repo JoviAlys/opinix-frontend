@@ -1,0 +1,24 @@
+.log-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    row-gap: 1em;
+    background-color: rgb(12, 81, 184);
+}
+
+.log-sign {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5em;
+}
+
+.guest {
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color:rgba(128, 128, 128, 0);
+}
+
+.guest:hover {
+    border-bottom: 1px solid black;
+}
