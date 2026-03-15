@@ -14,12 +14,11 @@ function Header(){
                 <h1>OPINIX</h1>
                 <div className="ribbonbar">
                     <div className="poll-settings">
-                        <button><p>Import Polls</p></button>
-                        <button><p>Create Polls</p></button>
+                        <button onClick={() => navigate("/import")}><p>Import Polls</p></button>
                         <button onClick={() => navigate("/home")}><p>Home</p></button>
                     </div>
                     <div className="user-settings">
-                        <button><p>Profile</p></button>
+                        <button onClick={() => navigate("/profile")}><p>Profile</p></button>
                         <button><p>Settings</p></button>
                         <button onClick={() => navigate("/")}><p>Logout</p></button>
                     </div>
